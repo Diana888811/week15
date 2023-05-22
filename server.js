@@ -32,7 +32,7 @@ app.get('/', (req, res) => {
     
 });
 
-app.get('/search', (req, res) => {
+/*app.get('/search', (req, res) => {
     res.render('search', { movieDetails:'' });
 });
 
@@ -78,7 +78,7 @@ app.post('/search', (req, res) => {
         res.render('search', {movieDetails: movieData});
     }));
 
-});
+});*/
 
 app.post('/getmovie', (req, res) => {
 	const movieToSearch =
